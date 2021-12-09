@@ -40,7 +40,9 @@
             android:id="@+id/overviewContainer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
+            android:layout_above="@+id/detailsContainer"
+            android:layout_below="@+id/addressContainer"
+            android:layout_centerHorizontal="true"
             android:orientation="vertical">
 
             <TextView
